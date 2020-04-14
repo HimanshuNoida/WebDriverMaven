@@ -34,6 +34,7 @@ public class LoginTest {
 
 		WebElement Next2 = driver.findElement(By.xpath("//span[contains(text(),'Next')]"));
 		Next2.click();
+		driver.findElement(By.xpath("sign_in")).click();
 
 	}
 
